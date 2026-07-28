@@ -486,6 +486,7 @@ local diffusion = {
             reset_freshness_on_craft = settings.startup["muluna-easy-simple-nanofoamed-polymers"].value == true,
         })
     end
+    diffusion.results[2].rigor_product=true
 
 data:extend{diffusion}
 
